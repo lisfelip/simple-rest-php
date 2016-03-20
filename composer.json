@@ -1,0 +1,12 @@
+{
+    "name": "root/simple-rest-api",
+    "require": {
+        "slim/slim": "^3.3"
+    },
+    "authors": [
+        {
+            "name": "Luis Felipe Sousa",
+            "email": "rumpertumpski@gmail.com"
+        }
+    ]
+}
