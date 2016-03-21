@@ -3,7 +3,7 @@
 	use \Psr\Http\Message\ServerRequestInterface as Request;
 	use \Psr\Http\Message\ResponseInterface as Response;
 
-	require 'vendor/autoload.php';
+	require "vendor/autoload.php";
 
 	$c = new \Slim\Container();
 
@@ -25,7 +25,7 @@
 	$app->get("/", "index");
 
 	function index($req, $res) {
-	    echo "{\"success\":true}";
+	    $res->write("{\"success\": true}");
 	    return $res;
 	}
 
