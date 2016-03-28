@@ -1,4 +1,4 @@
-# Simple Rest API PHP
+# Simple Rest API - PHP
 
 ## Description
 
@@ -6,6 +6,7 @@ Simple Rest API example. Featured:
 
 * Composer
 * Slim Framework 3
+* Eloquent ORM
 
 ## Quick Install
 
